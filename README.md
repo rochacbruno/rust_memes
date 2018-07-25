@@ -18,3 +18,10 @@ Most of the images here were created by members of the telegram groups listed ab
 
 
 Special mention to: https://github.com/tilacog - The meme master!
+
+
+## Memes
+
+https://github.com/rochacbruno/rust_memes/blob/master/img/arrumaumamerda.jpg
+
+![https://raw.githubusercontent.com/rochacbruno/rust_memes/master/img/arrumaumamerda.jpg](https://raw.githubusercontent.com/rochacbruno/rust_memes/master/img/arrumaumamerda.jpg)
