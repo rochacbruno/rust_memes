@@ -15,6 +15,6 @@ fn main() {
     let path = Path::new("img");
     for entry in fs::read_dir(path).expect("Unable to list") {
         let entry = entry.expect("unable to get entry");
-        println!("{}", render(entry.path().to_str().expect("a")));
+        println!("{}", render(entry.path().to_str().expect("Error to convert path")));
     }
 }
