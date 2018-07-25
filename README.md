@@ -17,4 +17,4 @@ https://t.me/rustjerkbr
 Most of the images here were created by members of the telegram groups listed above, some of the images taken from `/r/rustjerk`.
 
 
-Special mention to: @tilacog - The meme master!
+Special mention to: https://github.com/tilacog - The meme master!
