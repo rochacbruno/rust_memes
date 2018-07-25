@@ -3,11 +3,20 @@ use std::path::Path;
 
 fn render(image_path: &str) -> String {
     format!(
-        "https://github.com/rochacbruno/rust_memes/blob/master/{image_path}
-![https://raw.githubusercontent.com/rochacbruno/rust_memes/master/{image_path}](https://raw.githubusercontent.com/rochacbruno/rust_memes/master/{image_path})
----",
-        image_path = image_path
-    ).trim().into()
+        "### {image_title}  \n\
+        https://github.com/rochacbruno/rust_memes/blob/master/{image_path}  \n\
+        ![https://raw.githubusercontent.com/rochacbruno/rust_memes/master/{image_path}]\
+        (https://raw.githubusercontent.com/rochacbruno/rust_memes/master/{image_path})  \n\
+        ---
+        ",
+        image_path = image_path,
+        image_title = image_path
+            .replace("img/", "")
+            .replace(".jpg", "")
+            .replace("_", " ")
+            .to_ascii_uppercase()
+    ).trim()
+        .into()
 }
 
 fn main() {
